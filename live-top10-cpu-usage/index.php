@@ -45,15 +45,13 @@ require_once $centreon_path . 'www/class/centreonHost.class.php';
 
 CentreonSession::start(1);
 
-//load smarty
-require_once $centreon_path . 'GPL_LIB/Smarty/libs/Smarty.class.php';
-
 if (!isset($_SESSION['centreon']) || !isset($_REQUEST['widgetId'])) {
     exit;
 }
 
 $centreon = $_SESSION['centreon'];
 $widgetId = $_REQUEST['widgetId'];
+$grouplistStr = '';
 
 try {
     global $pearDB;
