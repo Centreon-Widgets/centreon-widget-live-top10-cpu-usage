@@ -6,28 +6,28 @@
   text-align: center;
   border: 1px grey solid;
   border-radius: 4px;
-  } 
+  }
   .bar .progress-ok {
-  background-color: #caef74;                                                                                                                                                            
+  background-color: #caef74;
   height: 100%;
-  display: block; 
+  display: block;
   border-radius: 4px;
-  } 
+  }
   .bar .progress-warning {
-  background-color: #fdc67c;                                                                                                                                                            
+  background-color: #fdc67c;
   height: 100%;
   display: block;
    border-radius: 4px;
   }
   .bar .progress-critical {
-  background-color: #FF9194;                                                                                                                                                  
+  background-color: #FF9194;
   height: 100%;
   display: block;
   color: #e00b3d;
   border-radius: 4px;
   }
   .bar .progress-unknown {
-  background-color: #bcbdc0;                                                         
+  background-color: #bcbdc0;
   height: 100%;
   display: block;
   border-radius: 4px;
@@ -41,7 +41,7 @@
   line-height: 15px;
   border-radius: 4px;
   }
-  .index {                                                                             
+  .index {
    width: 15px;
    text-align: center;
   }
