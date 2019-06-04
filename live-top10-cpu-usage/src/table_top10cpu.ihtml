@@ -5,7 +5,7 @@
 	<link href="../../Themes/Centreon-2/Color/blue_css.php" rel="stylesheet" text="text/css"/>
 	{literal}
 	<style type="text/css">
-	  .ListTable {font-size:11px;border-color: #BFD0E2;}                                                                                                                                     
+	  .ListTable {font-size:11px;border-color: #BFD0E2;}
 	</style>
 	<style>
 	  @import url('src/top10_cpu.css');
