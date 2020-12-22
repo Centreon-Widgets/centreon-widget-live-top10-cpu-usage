@@ -71,7 +71,7 @@ try {
           enabledForFailure: true,
           failOnError: true,
           ignoreFailedBuilds: false,
-          qualityGates: [[threshold: 1, type: 'NEW', unstable: false]],
+          qualityGates: [[threshold: 1, type: 'DELTA', unstable: false]],
           tools: [
             checkStyle(pattern: 'codestyle-be.xml')
           ],
