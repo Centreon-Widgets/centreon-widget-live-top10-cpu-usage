@@ -70,7 +70,6 @@ try {
         recordIssues(
           enabledForFailure: true,
           failOnError: true,
-          ignoreFailedBuilds: false,
           qualityGates: [[threshold: 1, type: 'DELTA', unstable: false]],
           tool: phpCodeSniffer(id: 'phpcs', name: 'phpcs', pattern: 'codestyle-be.xml'),
           trendChartType: 'NONE',
